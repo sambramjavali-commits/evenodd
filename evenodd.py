@@ -1,8 +1,7 @@
 def even_odd(a):
     if a%2==0:
-        print("Even")
+        return("Even")
     else:
-        print("Odd")
-
+        return("Odd")
 
 print("even or odd number",even_odd(10))
